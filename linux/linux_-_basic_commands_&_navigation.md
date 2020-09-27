@@ -49,6 +49,8 @@ Clears the terminal screen
 ### history
 Shows the history of *all* commands typed in the current and previous sessions
 
+<div style="page-break-after: always;"></div>
+
 ---
 ## Commands to View Directory Contents
 
@@ -74,13 +76,15 @@ Arguments such as `-a`, `-l`, etc., can be written together like `-la` to show a
 ### tree
 List contents of directories in a tree-like format
 
-- `tree` operates very similarly to `ls -R` but gives an indented tree visualization from the current directory <center>![](images/b24fed99.png =x350)</center>
+- `tree` operates very similarly to `ls -R` but gives an indented tree visualization from the current directory <center>![](images/b24fed99.png =x300)</center>
 
 - If you are in the home (`~`) directory when using `tree`, you will see all directories & files; depending on the size of your system, this can be quite unwieldly. It is recommended to either navigate to the subdirectory of interest and type `tree` (as shown above), or do something similar to the following:
   - ex. `tree dtest01/dtest02` will only show a tree view of the `dtest02` directory rather than the current working directory
 - `tree` can be used with arguments like `-t`, `-a`, etc.
 - `tree -d` shows directories only (useful if viewing hierarchies with large quantities of data)
 - `tree -L [level]` where *level* is the max display depth of the directory tree
+
+<div style="page-break-after: always;"></div>
 
 ---
 ## Command to Navigate Directories
@@ -98,6 +102,8 @@ Change the current directory
   - ex. `cd ~/[directory_path]` will allow you to directory navigate from the home directory down the given path, regardless which directory you are currently in
 
 ![](images/aca57beb.png)
+
+<div style="page-break-after: always;"></div>
 
 ---
 ## Commands to Make Directories and Files
@@ -131,6 +137,8 @@ Change file access and modification timestamps to the current time - if no file 
 - `touch -a` changes only the access time
 - `touch -m` changes only the modification time
 
+<div style="page-break-after: always;"></div>
+
 ## Command to Move & Rename Directories & Files
 ---
 ### mv
@@ -140,6 +148,8 @@ Move (rename) files - rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY
 
 - `mv [object_name] /[directory_path]` will move the object from the current working directory to the designated subdirectory
   - Note: you can also use `~/[directory_path]` to access any directory, not just subdirectories. Likewise, `../` can be used to move the object up one directory level <center>![](images/dc3bc048.png =x150)</center> <center>![](images/fbfd73bf.png)</center>
+
+<div style="page-break-after: always;"></div>
 
 ---
 ## Commands to Remove Directories and Files
